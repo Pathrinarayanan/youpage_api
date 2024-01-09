@@ -1,6 +1,5 @@
-    package com.example.youpage
+    package com.example.youpage_api.models
 
-    import android.content.res.Resources
     import android.view.LayoutInflater
     import android.view.View
     import android.view.ViewGroup
@@ -8,7 +7,6 @@
     import androidx.recyclerview.widget.GridLayoutManager
     import androidx.recyclerview.widget.LinearLayoutManager
     import androidx.recyclerview.widget.RecyclerView
-    import com.example.youpage_api.Items
     import com.example.youpage_api.R
 
     class mainRecyclerAdapter(private val items: List<Items>) :

@@ -1,4 +1,4 @@
-package com.example.youpage
+package com.example.youpage_api.models
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,8 +7,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.youpage_api.Items
-import com.example.youpage_api.MoreItems
 import com.example.youpage_api.R
 
 class ContactRecyclerAdapter(private val items: List<MoreItems>) :

@@ -5,6 +5,6 @@ data class MoreItems(
     var title :String ?=null,
     var guest_user_title :String?=null,
     var actionPage :String ?=null,
-    var actionUrl :String ?=null
-    var dialogTabs
+    var actionUrl :String ?=null,
+    var dialogTabs :List<MoreDialogues>?=null
 )
