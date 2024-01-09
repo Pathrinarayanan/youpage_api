@@ -1,4 +1,4 @@
-package com.example.youpage_api
+package com.example.youpage_api.models
 
 data class MoreItems(
     var img:String ?=null,

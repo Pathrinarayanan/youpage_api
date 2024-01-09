@@ -1,6 +1,6 @@
 package com.example.youpage_api
 
-import com.example.youpage_api.ApiResponse
+import com.example.youpage_api.models.Items
 import retrofit2.http.GET
 
 interface ApiService {

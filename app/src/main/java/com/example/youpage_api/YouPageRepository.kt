@@ -1,8 +1,6 @@
 package com.example.youpage_api
 
-import android.content.ClipData.Item
-import com.example.youpage_api.ApiResponse
-import com.example.youpage_api.ApiService
+import com.example.youpage_api.models.Items
 
 class YouPageRepository(private val apiService: ApiService) {
 

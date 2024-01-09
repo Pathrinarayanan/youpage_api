@@ -15,20 +15,16 @@
         android:paddingBottom="10dp"
         android:orientation="horizontal">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            app:cardCornerRadius="30dp"
-            >
+
 
             <ImageView
                 android:id="@+id/contactImageView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/ic_launcher_background"
                 android:scaleType="centerCrop" />
 
-        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:id="@+id/nameTextView"

@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.youpage_api.models.Items
 import kotlinx.coroutines.launch
 
 class  youPageViewModel(private val repository: YouPageRepository) : ViewModel() {

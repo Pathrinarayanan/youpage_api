@@ -1,4 +1,4 @@
-    package com.example.youpage_api.models
+    package com.example.youpage_api.adapters
 
     import android.view.LayoutInflater
     import android.view.View
@@ -7,9 +7,11 @@
     import androidx.recyclerview.widget.GridLayoutManager
     import androidx.recyclerview.widget.LinearLayoutManager
     import androidx.recyclerview.widget.RecyclerView
+    import androidx.viewpager.widget.ViewPager
     import com.example.youpage_api.R
+    import com.example.youpage_api.models.Items
 
-    class mainRecyclerAdapter(private val items: List<Items>) :
+    class mainRecyclerAdapter(private val items: List<Items>,  private val mViewPager: ViewPager?  ) :
         RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
         companion object {
@@ -58,7 +60,7 @@
                         }
 
                         "grid" -> {
-                            val fourthAdapter = currentItem.items?.let { PoliciesAdapter(it) }
+                            val fourthAdapter = currentItem.items?.let { PoliciesAdapter(it,mViewPager) }
                             holder.nestedRecyclerView.layoutManager = GridLayoutManager(holder.nestedRecyclerView.context,3,LinearLayoutManager.VERTICAL,false)
                             holder.nestedRecyclerView.adapter = fourthAdapter
 
